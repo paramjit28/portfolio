@@ -6,6 +6,7 @@ header  {
   }
 
 
+/* this is where you can change the color of the page background */
 
 body {
   background-color: wheat;
@@ -13,6 +14,14 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
+
+/* created margin to give space from the a href links in header */
+
+nav{
+
+  margin-bottom: 50px;
+}
+
 
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -41,6 +50,7 @@ article {
 
 a {
   color:red;
+  padding: 10px;
 }
 
 article div {
@@ -51,7 +61,6 @@ article div {
 
 p {
   line-height: 1.5;
-  white-space: nowrap;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -66,10 +75,12 @@ div {
 
 
 img {
+
   width: 100%;
   max-width: 200px;
   height: auto;
   display: block;
+  margin-top: -50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,12 +92,8 @@ hr {
 /* Add your solution below */
 
 .image-circle {
-
     border-radius: 100%;
     border: 2px solid #003049;
-   
-
-
 }
 
 /* adding footer to center */
